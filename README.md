@@ -1,11 +1,14 @@
 # Dicoding Collection Dashboard ✨
 
-## Setup Environment - Anaconda
+## Setup Environment 
 ```
-pip install -r requirements.txt
+python3 -m venv main-ds
+main-ds\Scripts\activate.bat
+scipy matplotlib seaborn streamlit babel
 ```
 
 ## Run steamlit app
 ```
-streamlit run dashboard.py
+pip install numpy pandas matplotlib streamlit 
+streamlit run Dashboard/Dashboard.py
 ```
