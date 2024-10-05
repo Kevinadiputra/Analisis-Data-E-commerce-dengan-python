@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Muat data
-data = pd.read_csv('dashboard/cleaned_data.csv') 
+data = pd.read_csv('cleaned_data.csv') 
 
 # Title Dashboard
 st.title('Dashboard Analisis E-Commerce')
@@ -12,7 +12,7 @@ st.write('Analisis data e-commerce untuk mendapatkan wawasan dari penjualan dan 
 
 # Pertanyaan 1: Kategori produk terlaris
 st.subheader('10 Kategori Produk Terlaris')
-produk_terlaris = data['product_category_name'].value_counts().head(10)
+produk_terlaris = data['product_category_name_english'].value_counts().head(10)
 
 # kategori produk terlaris
 fig1, ax1 = plt.subplots()
