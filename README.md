@@ -2,13 +2,10 @@
 
 ## Setup Environment 
 ```
-python3 -m venv main-ds
-main-ds\Scripts\activate.bat
-scipy matplotlib seaborn streamlit babel
+pip install -r requirements.txt
 ```
 
 ## Run steamlit app
 ```
-pip install numpy pandas matplotlib streamlit 
-streamlit run Dashboard/Dashboard.py
+streamlit run dashboard/Dashboard.py
 ```
