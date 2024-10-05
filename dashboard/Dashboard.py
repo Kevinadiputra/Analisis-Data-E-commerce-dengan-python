@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Muat data
-data = pd.read_csv('cleaned_data.csv') 
+data = pd.read_csv('dashboard/cleaned_data.csv') 
 
 # Title Dashboard
 st.title('Dashboard Analisis E-Commerce')
